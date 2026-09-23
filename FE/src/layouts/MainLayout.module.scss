@@ -1,0 +1,41 @@
+.shell {
+  min-height: 100vh;
+  padding-top: var(--qq-header-offset, 108px);
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+}
+
+.footer {
+  margin-top: auto;
+  padding: 20px 16px 28px;
+  border-top: 1px solid var(--header-border);
+  background: var(--qq-panel);
+}
+
+.footerInner {
+  max-width: 1200px;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.footerBrand {
+  margin: 0 0 8px;
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--app-text);
+}
+
+.footerBrand span {
+  color: var(--qq-accent);
+}
+
+.footerNote {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--app-text-muted);
+  line-height: 1.5;
+}

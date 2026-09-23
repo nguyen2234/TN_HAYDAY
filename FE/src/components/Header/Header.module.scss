@@ -1,0 +1,292 @@
+$header-bg: #1f1f1f;
+$header-top: #181818;
+$header-text: #e8e8e8;
+$header-muted: #9a9a9a;
+
+.wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+  background: $header-bg;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+}
+
+.topBar {
+  background: $header-top;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  font-size: 0.8rem;
+}
+
+.topInner {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 12px;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+.topLink {
+  color: $header-muted;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 6px;
+  transition:
+    color 0.2s ease,
+    background-color 0.2s ease;
+
+  &:hover {
+    color: var(--qq-accent);
+    background-color: rgba(255, 255, 255, 0.04);
+  }
+}
+
+.topSep {
+  color: rgba(255, 255, 255, 0.15);
+  user-select: none;
+}
+
+.navMain {
+  padding: 10px 0;
+  background: $header-bg !important;
+}
+
+.navInner {
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+.brand {
+  font-size: 1.45rem;
+  font-weight: 800;
+  color: $header-text !important;
+  letter-spacing: 0.02em;
+  text-decoration: none !important;
+
+  span {
+    color: var(--qq-accent);
+  }
+}
+
+.navLink {
+  color: $header-muted !important;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 8px 12px !important;
+  border-radius: 8px;
+  transition:
+    color 0.2s ease,
+    background-color 0.2s ease;
+
+  &:hover {
+    color: $header-text !important;
+    background-color: rgba(255, 255, 255, 0.06);
+  }
+
+  &:global(.active) {
+    color: var(--qq-accent) !important;
+    background-color: var(--qq-accent-soft);
+  }
+}
+
+.searchForm {
+  flex: 1;
+  max-width: 320px;
+  margin: 0 12px;
+}
+
+.searchInput {
+  background: #2c2c2c !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  color: $header-text !important;
+  border-radius: 999px !important;
+  padding-left: 16px !important;
+  font-size: 0.9rem;
+
+  &::placeholder {
+    color: $header-muted;
+  }
+
+  &:focus {
+    border-color: var(--qq-accent) !important;
+    box-shadow: 0 0 0 2px var(--qq-accent-soft) !important;
+  }
+}
+
+.themeBtn {
+  color: $header-text !important;
+  font-size: 1.15rem;
+  padding: 6px 10px !important;
+  border-radius: 8px;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.08) !important;
+  }
+}
+
+.loginBtn {
+  font-weight: 700;
+  font-size: 0.88rem;
+  border-radius: 999px !important;
+  padding: 8px 18px !important;
+  border-color: var(--qq-accent) !important;
+  color: var(--qq-accent) !important;
+  background: transparent !important;
+
+  &:hover {
+    background: var(--qq-accent) !important;
+    color: #1a1a1a !important;
+  }
+}
+
+.categoryDropdown:global(.active) :global(.dropdown-toggle) {
+  color: var(--qq-accent) !important;
+  background-color: var(--qq-accent-soft) !important;
+}
+
+/* Vỏ menu: không nhận pointer — click “ô trống” xuyên xuống trang → rootClose đóng menu (mega-menu rộng hay bị kẹt). */
+.categoryDropdown :global(.dropdown-menu) {
+  min-width: min(94vw, 680px) !important;
+  max-width: min(94vw, 780px) !important;
+  max-height: min(78vh, 540px) !important;
+  padding: 0 !important;
+  overflow: hidden;
+  background: #2a2a2a !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45) !important;
+  margin-top: 0 !important;
+  pointer-events: none;
+}
+
+.categoryMenuInner {
+  pointer-events: auto;
+  max-height: min(78vh, 538px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 18px 10px 10px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(112px, 1fr));
+  gap: 4px;
+}
+
+@media (max-width: 576px) {
+  .categoryDropdown :global(.dropdown-menu) {
+    min-width: min(94vw, 100%) !important;
+  }
+
+  .categoryMenuInner {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.categoryMenuHead {
+  grid-column: 1 / -1;
+  margin: 0 0 2px !important;
+  padding: 4px 8px 8px !important;
+  font-size: 0.68rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.12em !important;
+  text-transform: uppercase !important;
+  color: $header-muted !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.allCategoryItem {
+  grid-column: 1 / -1;
+  text-align: center !important;
+  font-weight: 800 !important;
+  font-size: 0.88rem !important;
+  margin-bottom: 2px !important;
+  color: $header-text !important;
+  border-radius: 8px !important;
+  border: 1px solid rgba(245, 165, 36, 0.4) !important;
+  background: rgba(245, 165, 36, 0.1) !important;
+
+  &:hover,
+  &:focus {
+    background: rgba(245, 165, 36, 0.22) !important;
+    color: var(--qq-accent) !important;
+  }
+}
+
+.categoryDivider {
+  grid-column: 1 / -1;
+  margin: 6px 0 !important;
+  border-color: rgba(255, 255, 255, 0.12) !important;
+  opacity: 1 !important;
+}
+
+.categoryLoading,
+.categoryError {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 18px 12px;
+  flex-wrap: wrap;
+  color: $header-muted;
+  font-size: 0.85rem;
+}
+
+.categoryError {
+  flex-direction: column;
+  text-align: center;
+}
+
+.retryBtn {
+  color: var(--qq-accent) !important;
+  padding: 0 !important;
+  font-weight: 700 !important;
+  font-size: 0.85rem !important;
+  text-decoration: underline !important;
+}
+
+.categoryCell {
+  color: $header-text !important;
+  border-radius: 8px !important;
+  font-size: 0.82rem !important;
+  font-weight: 600 !important;
+  padding: 8px 6px !important;
+  text-align: center !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: 1px solid transparent;
+
+  &:hover,
+  &:focus {
+    background: rgba(255, 193, 7, 0.12) !important;
+    color: var(--qq-accent) !important;
+    border-color: rgba(245, 165, 36, 0.28);
+  }
+}
+
+@media (max-width: 991px) {
+  .searchForm {
+    max-width: none;
+    margin: 12px 0;
+    width: 100%;
+  }
+}
+
+.wrap :global(.nav-link.dropdown-toggle) {
+  color: $header-muted !important;
+  font-weight: 600;
+  padding: 8px 12px !important;
+  border-radius: 8px;
+
+  &:hover,
+  &:focus {
+    color: $header-text !important;
+    background-color: rgba(255, 255, 255, 0.06) !important;
+  }
+}
+

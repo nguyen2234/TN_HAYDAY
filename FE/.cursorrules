@@ -1,0 +1,16 @@
+# Project Rules & Agent Instructions
+
+Tất cả các quy tắc hoạt động, tiêu chuẩn code và quy trình làm việc của Agent được tổ chức trong thư mục `.agents`.
+
+## Hướng dẫn cho Agent
+- Luôn kiểm tra thư mục `.agents/rules` để biết các tiêu chuẩn coding, git và thiết kế.
+- Luôn kiểm tra thư mục `.agents/workflows` để biết các quy trình tự động hóa (ví dụ: `/cp` hoặc `/auto-commit-push` cho commit & push).
+
+## Các quy tắc quan trọng
+- **Git**: Tuân thủ chuẩn Conventional Commits trong `.agents/rules/git-rules.md`.
+- **Coding**: Áp dụng tiêu chuẩn React/TypeScript trong `.agents/rules/coding-rules.md`.
+- **UI/UX**: Theo sát nguyên tắc thiết kế cao cấp trong `.agents/rules/ui-ux-rules.md`.
+- **Ngôn ngữ**: Ưu tiên sử dụng tiếng Việt trong các mô tả và trao đổi nếu không có yêu cầu khác.
+- **Workflow**: Sử dụng các lệnh tắt được định nghĩa trong `.agents/workflows`.
+
+

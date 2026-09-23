@@ -1,0 +1,11 @@
+dist
+node_modules
+*.lock
+package-lock.json
+bun.lock
+yarn.lock
+pnpm-lock.yaml
+public
+.github
+.vscode
+.agents
