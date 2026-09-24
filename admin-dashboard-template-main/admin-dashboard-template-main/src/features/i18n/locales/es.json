@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "overview": "Visión general",
+    "analytics": "Analíticas",
+    "mail": "Correo",
+    "mailInbox": "Recibidos",
+    "mailSent": "Enviados",
+    "calendar": "Calendario",
+    "users": "Usuarios",
+    "team": "Equipo",
+    "people": "Personas",
+    "finance": "Finanzas",
+    "profile": "Perfil",
+    "authentication": "Autenticación",
+    "notFound": "No encontrado",
+    "billing": "Facturación",
+    "transactions": "Transacciones",
+    "notifications": "Notificaciones",
+    "support": "Soporte",
+    "integrations": "Integraciones",
+    "uiKit": "Kit de UI",
+    "dataTables": "Tablas",
+    "dataCharts": "Gráficos",
+    "userSettings": "Ajustes de usuario",
+    "settings": "Ajustes del espacio de trabajo",
+    "group": {
+      "dashboard": "Panel",
+      "apps": "Aplicaciones",
+      "pages": "Páginas",
+      "uiElements": "Elementos UI",
+      "data": "Datos y gráficos",
+      "settings": "Ajustes"
+    }
+  },
+  "common": {
+    "skipToMain": "Saltar al contenido principal",
+    "search": "Buscar datos...",
+    "logout": "Cerrar sesión",
+    "workspace": "Espacio de trabajo",
+    "switchWorkspace": "Cambiar de espacio de trabajo",
+    "navigation": "Navegación",
+    "language": "Idioma",
+    "breadcrumb": "Ruta de navegación"
+  },
+  "overview": {
+    "eyebrow": "Resumen",
+    "title": "Resumen del panel",
+    "description": "Sigue ingresos, adquisición, trabajo activo y actividad en un solo lugar.",
+    "filters": "Filtros"
+  },
+  "login": {
+    "welcomeTitle": "Bienvenido de nuevo",
+    "subtitle": "Inicia sesión para continuar en el espacio Admin Dash",
+    "continueAs": "Continuar como {{name}}",
+    "switchAccount": "Cambiar o quitar cuenta",
+    "orSignInWith": "o inicia sesión con",
+    "needAssistance": "¿Necesitas ayuda?",
+    "helpCenter": "Centro de ayuda para empresas",
+    "signIn": "Iniciar sesión",
+    "signingIn": "Iniciando sesión…",
+    "emailLabel": "Correo electrónico",
+    "passwordLabel": "Contraseña",
+    "errorEmailRequired": "Introduce tu correo electrónico.",
+    "errorInvalidEmail": "Introduce un correo electrónico válido.",
+    "errorPasswordLength": "La contraseña debe tener al menos 8 caracteres.",
+    "errorGeneric": "No pudimos iniciar sesión. Inténtalo de nuevo.",
+    "useSavedAccount": "Usar cuenta guardada",
+    "removeSavedAccount": "Eliminar cuenta guardada"
+  },
+  "notifications": {
+    "allCaughtUp": "Todo al día"
+  },
+  "userSettings": {
+    "eyebrow": "Ajustes de usuario",
+    "title": "Personaliza tu experiencia.",
+    "description": "La apariencia y el idioma se aplican al instante, son específicos de tu usuario y se conservan en este dispositivo entre visitas.",
+    "appearance": {
+      "title": "Apariencia",
+      "description": "Elige la paleta utilizada en todas las pantallas; la selección se guarda automáticamente."
+    },
+    "language": {
+      "title": "Idioma",
+      "description": "Elige el idioma de la interfaz para menús, etiquetas y títulos de página."
+    },
+    "account": {
+      "title": "Sesión",
+      "description": "Datos de identidad de tu sesión actual."
+    }
+  }
+}

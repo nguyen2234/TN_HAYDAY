@@ -1,4 +1,4 @@
-@WebTruyen.API_HostAddress = http://localhost:5172
+@WebTruyen.API_HostAddress = http://localhost:5082
 
 GET {{WebTruyen.API_HostAddress}}/weatherforecast/
 Accept: application/json

@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "overview": "Vue d'ensemble",
+    "analytics": "Analytique",
+    "mail": "Messagerie",
+    "mailInbox": "Boîte de réception",
+    "mailSent": "Envoyés",
+    "calendar": "Calendrier",
+    "users": "Utilisateurs",
+    "team": "Équipe",
+    "people": "Personnes",
+    "finance": "Finance",
+    "profile": "Profil",
+    "authentication": "Authentification",
+    "notFound": "Introuvable",
+    "billing": "Facturation",
+    "transactions": "Transactions",
+    "notifications": "Notifications",
+    "support": "Assistance",
+    "integrations": "Intégrations",
+    "uiKit": "Kit UI",
+    "dataTables": "Tableaux",
+    "dataCharts": "Graphiques",
+    "userSettings": "Paramètres utilisateur",
+    "settings": "Paramètres de l'espace de travail",
+    "group": {
+      "dashboard": "Tableau de bord",
+      "apps": "Applications",
+      "pages": "Pages",
+      "uiElements": "Éléments UI",
+      "data": "Données et graphiques",
+      "settings": "Paramètres"
+    }
+  },
+  "common": {
+    "skipToMain": "Aller au contenu principal",
+    "search": "Rechercher des données...",
+    "logout": "Déconnexion",
+    "workspace": "Espace de travail",
+    "switchWorkspace": "Changer d'espace de travail",
+    "navigation": "Navigation",
+    "language": "Langue",
+    "breadcrumb": "Fil d'Ariane"
+  },
+  "overview": {
+    "eyebrow": "Aperçu",
+    "title": "Aperçu du tableau de bord",
+    "description": "Suivez les revenus, l'acquisition, le travail actif et l'activité sur une seule page.",
+    "filters": "Filtres"
+  },
+  "login": {
+    "welcomeTitle": "Content de vous revoir",
+    "subtitle": "Connectez-vous pour accéder à l'espace Admin Dash",
+    "continueAs": "Continuer en tant que {{name}}",
+    "switchAccount": "Changer ou supprimer de compte",
+    "orSignInWith": "ou se connecter avec",
+    "needAssistance": "Besoin d'aide ?",
+    "helpCenter": "Centre d'aide Entreprise",
+    "signIn": "Se connecter",
+    "signingIn": "Connexion…",
+    "emailLabel": "E-mail",
+    "passwordLabel": "Mot de passe",
+    "errorEmailRequired": "Saisissez votre adresse e-mail.",
+    "errorInvalidEmail": "Saisissez une adresse e-mail valide.",
+    "errorPasswordLength": "Le mot de passe doit contenir au moins 8 caractères.",
+    "errorGeneric": "Connexion impossible. Veuillez réessayer.",
+    "useSavedAccount": "Utiliser le compte enregistré",
+    "removeSavedAccount": "Supprimer le compte enregistré"
+  },
+  "notifications": {
+    "allCaughtUp": "Tout est à jour"
+  },
+  "userSettings": {
+    "eyebrow": "Paramètres utilisateur",
+    "title": "Personnalisez votre expérience.",
+    "description": "L'apparence et la langue s'appliquent instantanément, sont propres à votre utilisateur et sont conservées sur cet appareil d'une visite à l'autre.",
+    "appearance": {
+      "title": "Apparence",
+      "description": "Choisissez la palette utilisée sur tous les écrans ; la sélection est enregistrée automatiquement."
+    },
+    "language": {
+      "title": "Langue",
+      "description": "Choisissez la langue de l'interface pour les menus, les libellés et les titres de page."
+    },
+    "account": {
+      "title": "Session",
+      "description": "Informations d'identité de votre session actuelle."
+    }
+  }
+}

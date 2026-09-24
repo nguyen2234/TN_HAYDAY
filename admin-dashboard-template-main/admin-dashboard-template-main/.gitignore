@@ -1,0 +1,23 @@
+node_modules/
+dist/
+output/
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+.DS_Store
+*.log
+test-results/
+playwright-report/
+blob-report/
+e2e/.cache/
+
+# Local/AI tooling — not part of the distributed template
+.codegraph/
+AGENTS.md
+
+# Vercel project link (contains org/project ids)
+.vercel/
+
+# Local env files (keep .env.example tracked)
+.env
+.env*.local

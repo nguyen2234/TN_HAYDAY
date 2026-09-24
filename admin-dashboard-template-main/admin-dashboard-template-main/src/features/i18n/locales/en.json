@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "overview": "Overview",
+    "analytics": "Analytics",
+    "mail": "Mail",
+    "mailInbox": "Inbox",
+    "mailSent": "Sent",
+    "calendar": "Calendar",
+    "users": "Users",
+    "team": "Team",
+    "people": "People",
+    "finance": "Finance",
+    "profile": "Profile",
+    "authentication": "Authentication",
+    "notFound": "Not found",
+    "billing": "Billing",
+    "transactions": "Transactions",
+    "notifications": "Notifications",
+    "support": "Support",
+    "integrations": "Integrations",
+    "uiKit": "UI Kit",
+    "dataTables": "Tables",
+    "dataCharts": "Charts",
+    "userSettings": "User settings",
+    "settings": "Workspace settings",
+    "group": {
+      "dashboard": "Dashboard",
+      "apps": "Apps",
+      "pages": "Pages",
+      "uiElements": "UI Elements",
+      "data": "Data & Charts",
+      "settings": "Settings"
+    }
+  },
+  "common": {
+    "skipToMain": "Skip to main content",
+    "search": "Search data...",
+    "logout": "Logout",
+    "workspace": "Workspace",
+    "switchWorkspace": "Switch workspace",
+    "navigation": "Navigation",
+    "language": "Language",
+    "breadcrumb": "Breadcrumb"
+  },
+  "overview": {
+    "eyebrow": "Overview",
+    "title": "Dashboard Overview",
+    "description": "Track revenue, acquisition, active work and platform activity in one place.",
+    "filters": "Filters"
+  },
+  "login": {
+    "welcomeTitle": "Welcome back",
+    "subtitle": "Sign in to continue to the Admin Dash workspace",
+    "continueAs": "Continue as {{name}}",
+    "switchAccount": "Switch or remove account",
+    "orSignInWith": "or sign in with",
+    "needAssistance": "Need assistance?",
+    "helpCenter": "Enterprise Help Center",
+    "signIn": "Sign in",
+    "signingIn": "Signing in…",
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "errorEmailRequired": "Enter your email address.",
+    "errorInvalidEmail": "Enter a valid email address.",
+    "errorPasswordLength": "Your password must be at least 8 characters.",
+    "errorGeneric": "We couldn't sign you in. Please try again.",
+    "useSavedAccount": "Use saved account",
+    "removeSavedAccount": "Remove saved account"
+  },
+  "notifications": {
+    "allCaughtUp": "All caught up"
+  },
+  "userSettings": {
+    "eyebrow": "User settings",
+    "title": "Personalize your experience.",
+    "description": "Appearance and language apply instantly, are scoped to your user and persist on this device across visits.",
+    "appearance": {
+      "title": "Appearance",
+      "description": "Pick the palette used across every screen; the selection is saved automatically."
+    },
+    "language": {
+      "title": "Language",
+      "description": "Choose the interface language for menus, labels and page titles."
+    },
+    "account": {
+      "title": "Session",
+      "description": "Identity details from your current signed-in session."
+    }
+  }
+}
